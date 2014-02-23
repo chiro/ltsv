@@ -1,0 +1,20 @@
+name:                ltsv
+version:             0.1.0.0
+synopsis:            LTSV parser and printer for Haskell.
+-- description:         
+license:             MIT
+license-file:        LICENSE
+author:              Yuichiro Hanada
+maintainer:          peanut2626@gmail.com
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:     Web.Ltsv
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:       base >=4.6 && <4.7
+  -- hs-source-dirs:      
+  default-language:    Haskell2010
